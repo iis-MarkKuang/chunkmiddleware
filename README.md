@@ -30,13 +30,9 @@ config.py also allows you to define the key in json you want to cut into chunks,
   1. make check request
     
     http method: POST
-  
     url: [ip:port]/skus/check
-    
     header: content-type -> application/json
-    
-    body: check json报文.docx
-    
+    body: check json报文.docx
     response: 
       
       200 {"result": "Finished !"}
