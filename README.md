@@ -3,8 +3,10 @@ a middleware based on python http server to handle post request with large json 
 
 
 # How to run
-if you don't have python 2.7 installed, please install python 2.7
-if you don't have pip installed, please install pip
+
+  if you don't have python 2.7 installed, please install python 2.7
+
+  if you don't have pip installed, please install pip
 
 then
 
