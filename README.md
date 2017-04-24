@@ -24,3 +24,36 @@ chunk.py contains the middleware which separates the large json in your original
 the urls and ports of middleware server and downstream server are all configurable via config.py
 config.py also allows you to define the key in json you want to cut into chunks, and interval between requests you want to wait, and the size of each request's json object's chunked field you want it to be.
 
+# Http request apis:
+
+
+  1. make check request
+    
+    http method: POST
+  
+    url: [ip:port]/skus/check
+    
+    header: content-type -> application/json
+    
+    body: check json报文.docx
+    
+    response: 
+      
+      200 {"result": "Finished !"}
+      412 {"error": "[error message]"}
+      404 {"error": "wrong request path"}
+    
+  2. check progress
+    
+    http method: GET
+    
+    url: [ip:port]/progress
+    
+    response: 200
+    body: "0.93"
+    
+    
+    
+    
+    
+  
