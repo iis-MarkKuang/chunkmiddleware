@@ -56,6 +56,7 @@ class SETHandler(BaseHTTPRequestHandler):
             length = int(self.headers.getheader('content-length'))
             qs = self.rfile.read(length)
             body = urldecode(qs)
+            print body
             try:
                 json_obj = json.loads(body)
                 epc_sku_obj = {}
