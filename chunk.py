@@ -6,6 +6,8 @@ import config
 import requests
 import copy
 import time
+import urlparse
+
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer, test as _test
 from SocketServer import ThreadingMixIn
 
@@ -45,15 +47,30 @@ class SETHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         print "POST"
         print self.headers
-        if self.path == "/skus/check":
+        if self.path.startswith("/skus/check"):
+	    batch_size_param = None
+	    interval_param = None
             if '?' in self.path:
-                 self.queryString=urllib.parse.unquote(self.path.split('?',1)[1])     
+                self.queryString=self.path.split('?',1)[1]    
                 #name=str(bytes(params['name'][0],'GBK'),'utf-8')     
-                params=urllib.parse.parse_qs(self.queryString)     
+                params=urlparse.parse_qs(self.queryString)     
                 print(params)     
-                batch_size=params["batch_size"][0] if "batch_size" in params else config.batch_size 
-                interval=params["interval"][0] if "interval" in params else config.interval 
-            length = int(self.headers.getheader('content-length'))
+                batch_size_param=params["batch_size"][0] if "batch_size" in params else None 
+                interval_param=params["interval"][0] if "interval" in params else None
+	    try:
+		batch_size = int(batch_size_param) if batch_size_param is not None else config.batch_size
+	    except Exception, e:
+		print e.message
+		batch_size = config.batch_size
+
+	    try:
+		interval = int(interval_param) if interval_param is not None else config.interval 
+            except Exception, e:
+		print e.message
+		interval = config.interval
+					
+
+	    length = int(self.headers.getheader('content-length'))
             qs = self.rfile.read(length)
             body = urldecode(qs)
             print body
