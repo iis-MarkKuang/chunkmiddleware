@@ -98,7 +98,7 @@ class SETHandler(BaseHTTPRequestHandler):
 
                 json_obj_current = copy.deepcopy(json_obj)
                 json_obj_current[config.chunk_field] = epc_sku_obj
-                requests.post(config.dest_url + ":" + str(config.dest_port), data=json.dumps(json_obj_current))
+                requests.post(config.dest_url + ":" + str(config.dest_port) + config.dest_path, data=json.dumps(json_obj_current))
 
 
             except Exception, e:
