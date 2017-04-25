@@ -46,6 +46,13 @@ class SETHandler(BaseHTTPRequestHandler):
         print "POST"
         print self.headers
         if self.path == "/skus/check":
+            if '?' in self.path:
+                 self.queryString=urllib.parse.unquote(self.path.split('?',1)[1])     
+                #name=str(bytes(params['name'][0],'GBK'),'utf-8')     
+                params=urllib.parse.parse_qs(self.queryString)     
+                print(params)     
+                batch_size=params["batch_size"][0] if "batch_size" in params else config.batch_size 
+                interval=params["interval"][0] if "interval" in params else config.interval 
             length = int(self.headers.getheader('content-length'))
             qs = self.rfile.read(length)
             body = urldecode(qs)
@@ -62,12 +69,12 @@ class SETHandler(BaseHTTPRequestHandler):
                     size += 1
                     ThreadedHTTPServer.completion = round(curr / float(total), 2)
                     print ThreadedHTTPServer.completion
-                    if size == config.batch_size:
+                    if size == batch_size:
                         json_obj_current = copy.deepcopy(json_obj)
                         json_obj_current[config.chunk_field] = epc_sku_obj
                         json_obj_current[config.chunk_field] = epc_sku_obj
                         requests.post(config.dest_url + ":" + str(config.dest_port), data=json.dumps(json_obj_current))
-                        time.sleep(config.interval)
+                        time.sleep(interval)
                         size = 0
                         epc_sku_obj = {}
 
