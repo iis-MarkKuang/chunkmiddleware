@@ -26,8 +26,6 @@ def urldecode(url):
 
 class SETHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        print "GET"
-        print self.headers
         if self.path == "/progress":
             self.send_response(200)
             self.send_header('Content-type', 'text/html')
@@ -41,7 +39,7 @@ class SETHandler(BaseHTTPRequestHandler):
             # Send the html message
             result = {}
             result["error"] = "wrong request path"
-            self.wfile.write(json.dumps(result))
+            Self.wfile.write(json.dumps(result))
         return
 
     def do_POST(self):
@@ -54,7 +52,6 @@ class SETHandler(BaseHTTPRequestHandler):
                 self.queryString=self.path.split('?',1)[1]    
                 #name=str(bytes(params['name'][0],'GBK'),'utf-8')     
                 params=urlparse.parse_qs(self.queryString)     
-                print(params)     
                 batch_size_param=params["batch_size"][0] if "batch_size" in params else None 
                 interval_param=params["interval"][0] if "interval" in params else None
 	    try:
@@ -80,8 +77,6 @@ class SETHandler(BaseHTTPRequestHandler):
                 size = 0
                 total, curr = len(json_obj[config.chunk_field].items()), 0
                 for attribute, value in json_obj[config.chunk_field].iteritems():
-                    print attribute
-                    print value
                     curr += 1
                     epc_sku_obj[attribute] = value
                     size += 1
@@ -90,16 +85,29 @@ class SETHandler(BaseHTTPRequestHandler):
                     if size == batch_size:
                         json_obj_current = copy.deepcopy(json_obj)
                         json_obj_current[config.chunk_field] = epc_sku_obj
-                        json_obj_current[config.chunk_field] = epc_sku_obj
-                        requests.post(config.dest_url + ":" + str(config.dest_port), data=json.dumps(json_obj_current))
-                        time.sleep(interval)
+               		json_obj_nested = {}
+			json_obj_nested["param"] = json_obj_current
+			json_obj_final = {}
+			json_obj_final["param"] = json.dumps(json_obj_nested) 
+			#response_inner = requests.post(config.dest_url + ":" + str(config.dest_port), data=json_obj_final)
+                        response_inner = requests.post("http://139.196.183.93:8088/wms/wsAction_doInventorySubmit.action", data=json_obj_final)
+			print "sending: " + json.dumps(json_obj_final)
+			print response_inner.content
+			print response_inner.status_code
+			time.sleep(interval)
                         size = 0
                         epc_sku_obj = {}
 
                 json_obj_current = copy.deepcopy(json_obj)
                 json_obj_current[config.chunk_field] = epc_sku_obj
-                requests.post(config.dest_url + ":" + str(config.dest_port) + config.dest_path, data=json.dumps(json_obj_current))
-
+		json_obj_nested = {}
+		json_obj_nested["param"] = json_obj_current
+		json_obj_final = {}
+		json_obj_final["param"] = json.dumps(json_obj_nested)
+                #response = requests.post(config.dest_url + ":" + str(config.dest_port) + config.dest_path, data=json_obj_final)
+		response = requests.post("http://139.196.183.93:8088/wms/wsAction_doInventorySubmit.action", data=json_obj_final)
+		print "sending: " + json.dumps(json_obj_final)
+		print response.text
 
             except Exception, e:
                 self.send_response(412)
