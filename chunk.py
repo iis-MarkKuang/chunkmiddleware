@@ -134,7 +134,6 @@ class SETHandler(BaseHTTPRequestHandler):
 		print response.text
 
             except Exception, e:
-		raise
                 self.send_response(412)
                 self.send_header('Content-type', 'text/html')
                 self.end_headers()

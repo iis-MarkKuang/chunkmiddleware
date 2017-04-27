@@ -1,0 +1,481 @@
+nohup: ignoring input
+serving at port 8009
+POST
+cache-control: no-cache
+Postman-Token: c5d0958f-89f0-45ba-af2c-2cc252b5a870
+Content-Type: application/json
+User-Agent: PostmanRuntime/3.0.11-hotfix.2
+Accept: */*
+Host: 192.168.0.183:8009
+accept-encoding: gzip, deflate
+content-length: 1750
+Connection: keep-alive
+
+{
+  "pwd": "123",
+  "dtl": [],
+  "name": "8888",
+  "epcSku": {
+    "200000015798897300000006": "5071230600130193029",
+    "200000015798897300000003": "5071230600130193029",
+    "200000015798897300000004": "5071230600130193029",
+    "200000015798897300000009": "5071230600130193029",
+    "200000015798897300000007": "5071230600130193029",
+    "200000147050019400000001": "5071040800211679028",
+    "200000015798897300000008": "5071230600130193029",
+    "200000053279195300000001": "5071040800211679029",
+    "20000001579889730000000A": "5071230600130193029",
+    "20000001579889730000000B": "5071230600130193029",
+    "200000107514932200000001": "5071040800211679027",
+    "20000001579889730000000C": "5071230600130193029",
+    "200000173793622000000002": "5071040800211679031",
+    "200000173793622000000001": "5071040800211679031",
+    "200000015798897300000002": "5071230600130193029",
+    "200000015798897300000001": "5071230600130193029"
+  },
+  "epcs": [],
+  "type": "inventoryServiceImpl",
+  "isScanFinish": "0",
+  "main": {
+    "totactqty": 0,
+    "orderstatus": "1",
+    "acceptdate": "",
+    "remark": "",
+    "mdfDtm": "",
+    "accepter": "",
+    "orderno": "IY201703100001",
+    "crtBy": "8888",
+    "id": "IK170310095030455000",
+    "totqty": 4998,
+    "locationid": "",
+    "checkdate": "2017-03-10 09:52:38",
+    "operatedate": "2017-03-10 09:50:30",
+    "voided": "0",
+    "mdfBy": "",
+    "voidedDtm": "",
+    "storeid": "IK141011152156218000",
+    "orderdate": "2017-03-10",
+    "crtDtm": "2017-03-10 09:50:30",
+    "ordertype": "0",
+    "checker": "8888",
+    "voidedBy": "",
+    "operatorName": "8888",
+    "storename": "测试仓库",
+    "originalno": "",
+    "pdmode": 0
+  }
+}
+129
+130
+131
+132
+133
+134
+sending: {"param": "{\"epcSku\": {\"200000015798897300000009\": \"5071230600130193029\", \"200000015798897300000008\": \"5071230600130193029\", \"200000015798897300000003\": \"5071230600130193029\", \"200000015798897300000002\": \"5071230600130193029\", \"200000015798897300000001\": \"5071230600130193029\", \"200000053279195300000001\": \"5071040800211679029\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+200
+192.168.0.194 - - [27/Apr/2017 16:08:08] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+192.168.0.194 - - [27/Apr/2017 16:08:10] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+192.168.0.194 - - [27/Apr/2017 16:08:13] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+192.168.0.194 - - [27/Apr/2017 16:08:36] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+135
+136
+137
+138
+139
+140
+sending: {"param": "{\"epcSku\": {\"200000107514932200000001\": \"5071040800211679027\", \"200000015798897300000007\": \"5071230600130193029\", \"200000015798897300000006\": \"5071230600130193029\", \"200000015798897300000004\": \"5071230600130193029\", \"20000001579889730000000C\": \"5071230600130193029\", \"200000173793622000000002\": \"5071040800211679031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+200
+141
+142
+143
+144
+sending: {"param": "{\"epcSku\": {\"20000001579889730000000B\": \"5071230600130193029\", \"20000001579889730000000A\": \"5071230600130193029\", \"200000173793622000000001\": \"5071040800211679031\", \"200000147050019400000001\": \"5071040800211679028\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+192.168.0.194 - - [27/Apr/2017 16:09:33] "POST /skus/check?batch_size=6&interval=50 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 16:09:45] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 16:10:29] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 16:11:22] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 16:12:22] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 16:12:48] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:10:04] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+101.226.89.122 - - [27/Apr/2017 17:11:17] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+180.153.206.22 - - [27/Apr/2017 17:11:26] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:11:29] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:11:30] "GET /favicon.ico HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:11:32] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+220.181.132.220 - - [27/Apr/2017 17:12:13] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.143 - - [27/Apr/2017 17:12:13] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.143 - - [27/Apr/2017 17:12:13] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+101.199.108.55 - - [27/Apr/2017 17:12:31] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+119.188.70.26 - - [27/Apr/2017 17:12:31] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.149 - - [27/Apr/2017 17:12:34] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.149 - - [27/Apr/2017 17:12:34] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+171.13.14.134 - - [27/Apr/2017 17:12:37] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:14:10] "GET /favicon.ico HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:14:11] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:14:11] "GET /favicon.ico HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:14:45] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+220.181.132.220 - - [27/Apr/2017 17:15:17] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.143 - - [27/Apr/2017 17:15:17] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.143 - - [27/Apr/2017 17:15:17] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:15:26] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:15:26] "GET /favicon.ico HTTP/1.1" 404 -
+101.199.112.45 - - [27/Apr/2017 17:15:28] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.155 - - [27/Apr/2017 17:15:28] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+171.13.14.149 - - [27/Apr/2017 17:15:31] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+182.118.20.151 - - [27/Apr/2017 17:16:04] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:16:17] "GET /skus/ch?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:16:23] "GET /skus/ch?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:16:28] "GET /sk HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:16:56] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:16:56] "GET /favicon.ico HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:17:15] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+192.168.0.194 - - [27/Apr/2017 17:24:31] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+POST
+cache-control: no-cache
+Postman-Token: 61a8af00-42a8-48df-b0a6-60fad1d7b0c5
+Content-Type: application/json
+User-Agent: PostmanRuntime/3.0.11-hotfix.2
+Accept: */*
+Host: 192.168.0.183:8009
+accept-encoding: gzip, deflate
+content-length: 1750
+Connection: keep-alive
+
+{
+  "pwd": "123",
+  "dtl": [],
+  "name": "8888",
+  "epcSku": {
+    "200000015798897300000006": "5071230600130193029",
+    "200000015798897300000003": "5071230600130193029",
+    "200000015798897300000004": "5071230600130193029",
+    "200000015798897300000009": "5071230600130193029",
+    "200000015798897300000007": "5071230600130193029",
+    "200000147050019400000001": "5071040800211679028",
+    "200000015798897300000008": "5071230600130193029",
+    "200000053279195300000001": "5071040800211679029",
+    "20000001579889730000000A": "5071230600130193029",
+    "20000001579889730000000B": "5071230600130193029",
+    "200000107514932200000001": "5071040800211679027",
+    "20000001579889730000000C": "5071230600130193029",
+    "200000173793622000000002": "5071040800211679031",
+    "200000173793622000000001": "5071040800211679031",
+    "200000015798897300000002": "5071230600130193029",
+    "200000015798897300000001": "5071230600130193029"
+  },
+  "epcs": [],
+  "type": "inventoryServiceImpl",
+  "isScanFinish": "0",
+  "main": {
+    "totactqty": 0,
+    "orderstatus": "1",
+    "acceptdate": "",
+    "remark": "",
+    "mdfDtm": "",
+    "accepter": "",
+    "orderno": "IY201703100001",
+    "crtBy": "8888",
+    "id": "IK170310095030455000",
+    "totqty": 4998,
+    "locationid": "",
+    "checkdate": "2017-03-10 09:52:38",
+    "operatedate": "2017-03-10 09:50:30",
+    "voided": "0",
+    "mdfBy": "",
+    "voidedDtm": "",
+    "storeid": "IK141011152156218000",
+    "orderdate": "2017-03-10",
+    "crtDtm": "2017-03-10 09:50:30",
+    "ordertype": "0",
+    "checker": "8888",
+    "voidedBy": "",
+    "operatorName": "8888",
+    "storename": "测试仓库",
+    "originalno": "",
+    "pdmode": 0
+  }
+}
+145
+146
+147
+148
+149
+150
+sending: {"param": "{\"epcSku\": {\"200000015798897300000009\": \"5071230600130193029\", \"200000015798897300000008\": \"5071230600130193029\", \"200000015798897300000003\": \"5071230600130193029\", \"200000015798897300000002\": \"5071230600130193029\", \"200000015798897300000001\": \"5071230600130193029\", \"200000053279195300000001\": \"5071040800211679029\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+200
+151
+152
+153
+154
+155
+156
+sending: {"param": "{\"epcSku\": {\"200000107514932200000001\": \"5071040800211679027\", \"200000015798897300000007\": \"5071230600130193029\", \"200000015798897300000006\": \"5071230600130193029\", \"200000015798897300000004\": \"5071230600130193029\", \"20000001579889730000000C\": \"5071230600130193029\", \"200000173793622000000002\": \"5071040800211679031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+200
+157
+158
+159
+160
+sending: {"param": "{\"epcSku\": {\"20000001579889730000000B\": \"5071230600130193029\", \"20000001579889730000000A\": \"5071230600130193029\", \"200000173793622000000001\": \"5071040800211679031\", \"200000147050019400000001\": \"5071040800211679028\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+192.168.0.194 - - [27/Apr/2017 17:24:49] "POST /skus/check?batch_size=6&interval=1 HTTP/1.1" 200 -
+211.103.82.180 - - [27/Apr/2017 17:25:40] "GET /progress HTTP/1.1" 200 -
+211.103.82.180 - - [27/Apr/2017 17:25:40] "GET /progress HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('211.103.82.180', 57400)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 50, in do_GET
+    Self.wfile.write(json.dumps(result))
+NameError: global name 'Self' is not defined
+----------------------------------------
+223.104.5.235 - - [27/Apr/2017 17:25:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.194 - - [27/Apr/2017 17:26:16] "GET /progress?order_no=IY20170310000111 HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('192.168.0.194', 61574)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 43, in do_GET
+    self.wfile.write(round(int(curr) / float(total), 2))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+192.168.0.194 - - [27/Apr/2017 17:26:20] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 642
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+sending: {"param": "{\"epcSku\": {}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 17:28:10] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:28:11] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:28:12] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:28:13] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:28:14] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:28:23] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:28:26] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 17:31:07] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+POST
+cache-control: no-cache
+Postman-Token: 60da12f8-ed05-47c6-adb6-3cc4b8227bca
+Content-Type: application/json
+User-Agent: PostmanRuntime/3.0.11-hotfix.2
+Accept: */*
+Host: 192.168.0.183:8009
+accept-encoding: gzip, deflate
+content-length: 1750
+Connection: keep-alive
+
+{
+  "pwd": "123",
+  "dtl": [],
+  "name": "8888",
+  "epcSku": {
+    "200000015798897300000006": "5071230600130193029",
+    "200000015798897300000003": "5071230600130193029",
+    "200000015798897300000004": "5071230600130193029",
+    "200000015798897300000009": "5071230600130193029",
+    "200000015798897300000007": "5071230600130193029",
+    "200000147050019400000001": "5071040800211679028",
+    "200000015798897300000008": "5071230600130193029",
+    "200000053279195300000001": "5071040800211679029",
+    "20000001579889730000000A": "5071230600130193029",
+    "20000001579889730000000B": "5071230600130193029",
+    "200000107514932200000001": "5071040800211679027",
+    "20000001579889730000000C": "5071230600130193029",
+    "200000173793622000000002": "5071040800211679031",
+    "200000173793622000000001": "5071040800211679031",
+    "200000015798897300000002": "5071230600130193029",
+    "200000015798897300000001": "5071230600130193029"
+  },
+  "epcs": [],
+  "type": "inventoryServiceImpl",
+  "isScanFinish": "0",
+  "main": {
+    "totactqty": 0,
+    "orderstatus": "1",
+    "acceptdate": "",
+    "remark": "",
+    "mdfDtm": "",
+    "accepter": "",
+    "orderno": "IY201703100001",
+    "crtBy": "8888",
+    "id": "IK170310095030455000",
+    "totqty": 4998,
+    "locationid": "",
+    "checkdate": "2017-03-10 09:52:38",
+    "operatedate": "2017-03-10 09:50:30",
+    "voided": "0",
+    "mdfBy": "",
+    "voidedDtm": "",
+    "storeid": "IK141011152156218000",
+    "orderdate": "2017-03-10",
+    "crtDtm": "2017-03-10 09:50:30",
+    "ordertype": "0",
+    "checker": "8888",
+    "voidedBy": "",
+    "operatorName": "8888",
+    "storename": "测试仓库",
+    "originalno": "",
+    "pdmode": 0
+  }
+}
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+sending: {"param": "{\"epcSku\": {\"200000015798897300000009\": \"5071230600130193029\", \"200000015798897300000008\": \"5071230600130193029\", \"200000015798897300000003\": \"5071230600130193029\", \"200000015798897300000002\": \"5071230600130193029\", \"200000015798897300000001\": \"5071230600130193029\", \"200000053279195300000001\": \"5071040800211679029\", \"200000015798897300000007\": \"5071230600130193029\", \"200000015798897300000006\": \"5071230600130193029\", \"200000015798897300000004\": \"5071230600130193029\", \"200000173793622000000002\": \"5071040800211679031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+200
+171
+172
+173
+174
+175
+176
+sending: {"param": "{\"epcSku\": {\"200000107514932200000001\": \"5071040800211679027\", \"20000001579889730000000C\": \"5071230600130193029\", \"20000001579889730000000B\": \"5071230600130193029\", \"20000001579889730000000A\": \"5071230600130193029\", \"200000173793622000000001\": \"5071040800211679031\", \"200000147050019400000001\": \"5071040800211679028\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"operatorName\": \"8888\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"id\": \"IK170310095030455000\", \"mdfBy\": \"\", \"checker\": \"8888\", \"locationid\": \"\", \"totactqty\": 0, \"crtDtm\": \"2017-03-10 09:50:30\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-03-10\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 4998, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201703100001\", \"operatedate\": \"2017-03-10 09:50:30\", \"checkdate\": \"2017-03-10 09:52:38\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"null"}
+192.168.0.194 - - [27/Apr/2017 17:33:00] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 690
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000195805977712345676":"5071230600130193031"},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+3
+sending: {"param": "{\"epcSku\": {\"200000195805977712345676\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 17:34:57] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:34:58] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:36:19] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 642
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+sending: {"param": "{\"epcSku\": {}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 17:42:28] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:42:30] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 17:50:19] "GET /favicon.ico HTTP/1.1" 404 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 45
+Expect: 100-continue
+Connection: Keep-Alive
+
+{
+    "batch_size": 1,
+    "interval": 1
+}
+116.226.187.83 - - [27/Apr/2017 18:26:36] "POST /skus/check HTTP/1.1" 412 -
+116.226.187.83 - - [27/Apr/2017 18:26:59] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 45
+Expect: 100-continue
+Connection: Keep-Alive
+
+{
+    "batch_size": 1,
+    "interval": 1
+}
+116.226.187.83 - - [27/Apr/2017 18:27:30] "POST /skus/check HTTP/1.1" 412 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 49
+Expect: 100-continue
+Connection: Keep-Alive
+
+{
+    "batch_size": "1",
+    "interval": "1"
+}
+116.226.187.83 - - [27/Apr/2017 18:29:15] "POST /skus/check HTTP/1.1" 412 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 45
+Expect: 100-continue
+Connection: Keep-Alive
+
+{
+    "batch_size": 1,
+    "interval": 1
+}
+116.226.187.83 - - [27/Apr/2017 18:31:25] "POST /skus/check HTTP/1.1" 412 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 45
+Expect: 100-continue
+Connection: Keep-Alive
+
+[
+    "batch_size": 1,
+    "interval": 1
+]
+116.226.187.83 - - [27/Apr/2017 18:32:09] "POST /skus/check HTTP/1.1" 412 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 45
+Expect: 100-continue
+Connection: Keep-Alive
+
+{
+    "batch_size": 1,
+    "interval": 1
+}
+116.226.187.83 - - [27/Apr/2017 18:32:50] "POST /skus/check HTTP/1.1" 412 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 45
+Expect: 100-continue
+Connection: Keep-Alive
+
+{
+    "batch_size": 1,
+    "interval": 1
+}
+116.226.187.83 - - [27/Apr/2017 18:33:03] "POST /skus/check HTTP/1.1" 412 -
