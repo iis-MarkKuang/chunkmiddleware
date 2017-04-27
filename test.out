@@ -479,3 +479,1383 @@ Connection: Keep-Alive
     "interval": 1
 }
 116.226.187.83 - - [27/Apr/2017 18:33:03] "POST /skus/check HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+116.226.187.83 - - [27/Apr/2017 18:35:00] "POST /progress?order_no=IY201703100001 HTTP/1.1" 404 -
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+116.226.187.83 - - [27/Apr/2017 18:35:27] "POST /progress?order_no=IY201703100001 HTTP/1.1" 404 -
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55720)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55721)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55732)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55733)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55735)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55736)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55816)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55817)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+116.226.187.83 - - [27/Apr/2017 18:38:44] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55922)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 55923)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39033)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+118.190.20.240 - - [27/Apr/2017 18:40:03] "GET /skus/check?batch_size=10&interval=10&atool_timestamp=1493289596 HTTP/1.1" 404 -
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39063)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39165)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39166)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39167)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39168)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39170)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39171)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39172)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39173)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39295)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39296)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+118.190.20.240 - - [27/Apr/2017 18:42:17] "GET /skus/check/progress?order_no=IY201703100001&atool_timestamp=1493289729 HTTP/1.1" 404 -
+192.168.0.194 - - [27/Apr/2017 18:43:17] "GET /progress?order_no=IY201703100001 HTTP/1.1" 200 -
+58.241.44.248 - - [27/Apr/2017 18:43:35] "GET /progress HTTP/1.1" 200 -
+58.241.44.248 - - [27/Apr/2017 18:43:35] "GET /progress HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('58.241.44.248', 42259)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 50, in do_GET
+    Self.wfile.write(json.dumps(result))
+NameError: global name 'Self' is not defined
+----------------------------------------
+118.190.20.240 - - [27/Apr/2017 18:43:46] "GET /progress?order_no=IY201703100001&atool_timestamp=1493289819 HTTP/1.1" 200 -
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+118.190.20.240 - - [27/Apr/2017 18:44:02] "POST /progress?order_no=IY201703100001&atool_timestamp=1493289835 HTTP/1.1" 404 -
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39588)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39594)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 39607)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 62977)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 62978)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 62995)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 62996)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Content-Length: 0
+Connection: Keep-Alive
+
+
+116.226.187.83 - - [27/Apr/2017 18:49:20] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+Content-Length: 0
+Connection: Keep-Alive
+
+
+116.226.187.83 - - [27/Apr/2017 18:52:08] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 63227)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+Connection: Keep-Alive
+
+----------------------------------------
+Exception happened during processing of request from ('116.226.187.83', 63228)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40246)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+116.226.187.83 - - [27/Apr/2017 18:52:45] "GET /favicon.ico HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 18:52:47] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 18:52:47] "GET /favicon.ico HTTP/1.1" 404 -
+116.226.187.83 - - [27/Apr/2017 18:52:58] "GET /skus/check?batch_size=10&interval=10 HTTP/1.1" 404 -
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40282)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40314)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40318)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40322)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40323)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40324)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40326)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40327)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+User-Agent: Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.1)
+Host: 27.115.113.158:40036
+Accept: */*
+
+----------------------------------------
+Exception happened during processing of request from ('118.190.20.240', 40328)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "chunk.py", line 87, in do_POST
+    length = int(self.headers.getheader('content-length'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+----------------------------------------
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+
+123.207.167.163 - - [27/Apr/2017 18:54:31] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 2
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+{}
+123.207.167.163 - - [27/Apr/2017 18:55:43] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 14
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+{“aa”:"a"}
+123.207.167.163 - - [27/Apr/2017 18:56:14] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 33
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+{“batch_size”:1,"interval":1}
+123.207.167.163 - - [27/Apr/2017 18:56:46] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 4
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+null
+123.207.167.163 - - [27/Apr/2017 18:57:07] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 412 -
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 1038
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+{
+    "dtl": [],
+    "epcSku": {
+        "200000195805977700000001": "5071230600130193031"
+    },
+    "main": {
+        "id": "IK170425150718743000",
+        "orderno": "IY201704250001",
+        "storeid": "IK141011152156218000",
+        "ordertype": "0",
+        "orderdate": "2017-04-25",
+        "orderstatus": "1",
+        "totqty": 5287,
+        "totactqty": 0,
+        "checker": "8888",
+        "checkdate": "2017-04-25 15:07:27",
+        "operatorName": "8888",
+        "operatedate": "2017-04-25 15:07:18",
+        "accepter": "",
+        "acceptdate": "",
+        "originalno": "",
+        "remark": "",
+        "crtBy": "8888",
+        "crtDtm": "2017-04-25 15:07:18",
+        "mdfBy": "",
+        "mdfDtm": "",
+        "voidedBy": "",
+        "voidedDtm": "",
+        "voided": "0",
+        "storename": "测试仓库",
+        "locationid": "",
+        "pdmode": 0
+    },
+    "epcs": [],
+    "pwd": "123",
+    "name": "8888",
+    "type": "inventoryServiceImpl",
+    "isScanFinish": "0"
+}
+4
+sending: {"param": "{\"epcSku\": {\"200000195805977700000001\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+123.207.167.163 - - [27/Apr/2017 18:57:49] "POST /skus/check?batch_size=10&interval=10 HTTP/1.1" 200 -
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 1038
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+{
+    "dtl": [],
+    "epcSku": {
+        "200000195805977700000001": "5071230600130193031"
+    },
+    "main": {
+        "id": "IK170425150718743000",
+        "orderno": "IY201704250001",
+        "storeid": "IK141011152156218000",
+        "ordertype": "0",
+        "orderdate": "2017-04-25",
+        "orderstatus": "1",
+        "totqty": 5287,
+        "totactqty": 0,
+        "checker": "8888",
+        "checkdate": "2017-04-25 15:07:27",
+        "operatorName": "8888",
+        "operatedate": "2017-04-25 15:07:18",
+        "accepter": "",
+        "acceptdate": "",
+        "originalno": "",
+        "remark": "",
+        "crtBy": "8888",
+        "crtDtm": "2017-04-25 15:07:18",
+        "mdfBy": "",
+        "mdfDtm": "",
+        "voidedBy": "",
+        "voidedDtm": "",
+        "voided": "0",
+        "storename": "测试仓库",
+        "locationid": "",
+        "pdmode": 0
+    },
+    "epcs": [],
+    "pwd": "123",
+    "name": "8888",
+    "type": "inventoryServiceImpl",
+    "isScanFinish": "0"
+}
+5
+sending: {"param": "{\"epcSku\": {\"200000195805977700000001\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+200
+sending: {"param": "{\"epcSku\": {}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+123.207.167.163 - - [27/Apr/2017 18:59:05] "POST /skus/check?batch_size=1&interval=1 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 739
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000072988544112345678":"5071260330110037529","200000195805977712345676":"5071230600130193031"},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+6
+7
+sending: {"param": "{\"epcSku\": {\"200000072988544112345678\": \"5071260330110037529\", \"200000195805977712345676\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 19:02:37] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 19:02:38] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+POST
+Host: 27.115.113.158:40036
+User-Agent: Go-http-client/1.1
+Content-Length: 1038
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+{
+    "dtl": [],
+    "epcSku": {
+        "200000195805977700000001": "5071230600130193031"
+    },
+    "main": {
+        "id": "IK170425150718743000",
+        "orderno": "IY201704250001",
+        "storeid": "IK141011152156218000",
+        "ordertype": "0",
+        "orderdate": "2017-04-25",
+        "orderstatus": "1",
+        "totqty": 5287,
+        "totactqty": 0,
+        "checker": "8888",
+        "checkdate": "2017-04-25 15:07:27",
+        "operatorName": "8888",
+        "operatedate": "2017-04-25 15:07:18",
+        "accepter": "",
+        "acceptdate": "",
+        "originalno": "",
+        "remark": "",
+        "crtBy": "8888",
+        "crtDtm": "2017-04-25 15:07:18",
+        "mdfBy": "",
+        "mdfDtm": "",
+        "voidedBy": "",
+        "voidedDtm": "",
+        "voided": "0",
+        "storename": "测试仓库",
+        "locationid": "",
+        "pdmode": 0
+    },
+    "epcs": [],
+    "pwd": "123",
+    "name": "8888",
+    "type": "inventoryServiceImpl",
+    "isScanFinish": "0"
+}
+8
+sending: {"param": "{\"epcSku\": {\"200000195805977700000001\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+200
+sending: {"param": "{\"epcSku\": {}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+123.207.167.163 - - [27/Apr/2017 19:04:18] "POST /skus/check?batch_size=1&interval=10 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 739
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000195805977712345676":"5071230600130193031","200000072988544112345678":"5071260330110037529"},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+9
+10
+sending: {"param": "{\"epcSku\": {\"200000072988544112345678\": \"5071260330110037529\", \"200000195805977712345676\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 19:05:04] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 19:05:05] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 984
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000203790275012345678":"5071262510130092028","200000072988544185236987":"5071260330110037529","200000195805977755558886":"5071230600130193031","200000072988544166666555":"5071260330110037529","200000195805977712345676":"5071230600130193031","200000195805977788855554":"5071230600130193031","200000072988544112345678":"5071260330110037529"},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+11
+12
+13
+14
+15
+sending: {"param": "{\"epcSku\": {\"200000072988544185236987\": \"5071260330110037529\", \"200000072988544112345678\": \"5071260330110037529\", \"200000195805977712345676\": \"5071230600130193031\", \"200000203790275012345678\": \"5071262510130092028\", \"200000195805977755558886\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+200
+16
+17
+sending: {"param": "{\"epcSku\": {\"200000195805977788855554\": \"5071230600130193031\", \"200000072988544166666555\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 19:20:39] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 19:20:39] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 984
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000072988544112345678":"5071260330110037529","200000203790275012345678":"5071262510130092028","200000195805977712345676":"5071230600130193031","200000072988544185236987":"5071260330110037529","200000072988544166666555":"5071260330110037529","200000195805977755558886":"5071230600130193031","200000195805977788855554":"5071230600130193031"},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+18
+19
+20
+21
+22
+sending: {"param": "{\"epcSku\": {\"200000072988544112345678\": \"5071260330110037529\", \"200000072988544185236987\": \"5071260330110037529\", \"200000195805977712345676\": \"5071230600130193031\", \"200000203790275012345678\": \"5071262510130092028\", \"200000195805977755558886\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+200
+23
+24
+sending: {"param": "{\"epcSku\": {\"200000195805977788855554\": \"5071230600130193031\", \"200000072988544166666555\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 19:23:26] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 19:23:26] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 984
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000203790275012345678":"5071262510130092028","200000195805977712345676":"5071230600130193031","200000072988544185236987":"5071260330110037529","200000072988544166666555":"5071260330110037529","200000072988544112345678":"5071260330110037529","200000195805977788855554":"5071230600130193031","200000195805977755558886":"5071230600130193031"},"dtl":[],"main":{"id":"IK170425150718743000","orderno":"IY201704250001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-25","orderstatus":"1","totqty":5287,"totactqty":1,"checker":"8888","checkdate":"2017-04-25 15:07:27","operatorName":"8888","operatedate":"2017-04-25 15:07:18","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-25 15:07:18","mdfBy":"","mdfDtm":"2017-04-26 14:40:56","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+25
+26
+27
+28
+29
+sending: {"param": "{\"epcSku\": {\"200000072988544185236987\": \"5071260330110037529\", \"200000072988544112345678\": \"5071260330110037529\", \"200000195805977712345676\": \"5071230600130193031\", \"200000203790275012345678\": \"5071262510130092028\", \"200000195805977755558886\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+200
+30
+31
+sending: {"param": "{\"epcSku\": {\"200000195805977788855554\": \"5071230600130193031\", \"200000072988544166666555\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170425150718743000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-25 15:07:18\", \"totactqty\": 1, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-26 14:40:56\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-25\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704250001\", \"operatedate\": \"2017-04-25 15:07:18\", \"checkdate\": \"2017-04-25 15:07:27\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":2,"msg":"Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update"}
+116.226.187.83 - - [27/Apr/2017 19:28:23] "POST /skus/check HTTP/1.1" 200 -
+116.226.187.83 - - [27/Apr/2017 19:28:23] "GET /progress?order_no=IY201704250001 HTTP/1.1" 200 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 988
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000195805977712345676":"5071230600130193031","200000195805977755558886":"5071230600130193031","200000072988544112345678":"5071260330110037529","200000072988544166666555":"5071260330110037529","200000203790275012345678":"5071262510130092028","200000195805977788855554":"5071230600130193031","200000072988544185236987":"5071260330110037529"},"dtl":[],"main":{"id":"IK170427193456157000","orderno":"IY201704270001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-27","orderstatus":"1","totqty":5287,"totactqty":0,"checker":"8888","checkdate":"2017-04-27 19:36:02","operatorName":"8888","operatedate":"2017-04-27 19:34:56","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-27 19:34:56","mdfBy":"8888","mdfDtm":"2017-04-27 19:35:06","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+7
+1
+sending: {"param": "{\"epcSku\": {\"200000072988544112345678\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+2
+sending: {"param": "{\"epcSku\": {\"200000072988544185236987\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+3
+sending: {"param": "{\"epcSku\": {\"200000203790275012345678\": \"5071262510130092028\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+4
+sending: {"param": "{\"epcSku\": {\"200000195805977712345676\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+5
+sending: {"param": "{\"epcSku\": {\"200000195805977755558886\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+6
+sending: {"param": "{\"epcSku\": {\"200000195805977788855554\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+7
+sending: {"param": "{\"epcSku\": {\"200000072988544166666555\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+sending: {"param": "{\"epcSku\": {}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+116.226.187.83 - - [27/Apr/2017 19:37:49] "POST /skus/check?batch_size=1&interval=10 HTTP/1.1" 412 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 988
+Connection: Keep-Alive
+Expect: 100-continue
+Host: 27.115.113.158:40036
+
+{"epcSku":{"200000195805977712345676":"5071230600130193031","200000195805977755558886":"5071230600130193031","200000072988544112345678":"5071260330110037529","200000072988544166666555":"5071260330110037529","200000203790275012345678":"5071262510130092028","200000195805977788855554":"5071230600130193031","200000072988544185236987":"5071260330110037529"},"dtl":[],"main":{"id":"IK170427193456157000","orderno":"IY201704270001","storeid":"IK141011152156218000","ordertype":"0","orderdate":"2017-04-27","orderstatus":"1","totqty":5287,"totactqty":0,"checker":"8888","checkdate":"2017-04-27 19:36:02","operatorName":"8888","operatedate":"2017-04-27 19:34:56","accepter":"","acceptdate":"","originalno":"","remark":"","crtBy":"8888","crtDtm":"2017-04-27 19:34:56","mdfBy":"8888","mdfDtm":"2017-04-27 19:35:06","voidedBy":"","voidedDtm":"","voided":"0","storename":"测试仓库","locationid":"","pdmode":0},"epcs":[],"pwd":"123","name":"8888","type":"inventoryServiceImpl","isScanFinish":"0"}
+8
+sending: {"param": "{\"epcSku\": {\"200000072988544112345678\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+9
+sending: {"param": "{\"epcSku\": {\"200000072988544185236987\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+10
+sending: {"param": "{\"epcSku\": {\"200000203790275012345678\": \"5071262510130092028\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+11
+sending: {"param": "{\"epcSku\": {\"200000195805977712345676\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+12
+sending: {"param": "{\"epcSku\": {\"200000195805977755558886\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+13
+sending: {"param": "{\"epcSku\": {\"200000195805977788855554\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+14
+sending: {"param": "{\"epcSku\": {\"200000072988544166666555\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+sending: {"param": "{\"epcSku\": {}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+116.226.187.83 - - [27/Apr/2017 19:40:28] "POST /skus/check?batch_size=1&interval=10 HTTP/1.1" 412 -
+POST
+Content-Type: application/x-www-form-urlencoded
+Host: 27.115.113.158:40036
+Content-Length: 1421
+Expect: 100-continue
+Connection: Keep-Alive
+
+{
+    "epcSku": {
+        "200000195805977712345676": "5071230600130193031",
+        "200000195805977755558886": "5071230600130193031",
+        "200000072988544112345678": "5071260330110037529",
+        "200000072988544166666555": "5071260330110037529",
+        "200000203790275012345678": "5071262510130092028",
+        "200000195805977788855554": "5071230600130193031",
+        "200000072988544185236987": "5071260330110037529"
+    },
+    "dtl": [],
+    "main": {
+        "id": "IK170427193456157000",
+        "orderno": "IY201704270001",
+        "storeid": "IK141011152156218000",
+        "ordertype": "0",
+        "orderdate": "2017-04-27",
+        "orderstatus": "1",
+        "totqty": 5287,
+        "totactqty": 0,
+        "checker": "8888",
+        "checkdate": "2017-04-27 19:36:02",
+        "operatorName": "8888",
+        "operatedate": "2017-04-27 19:34:56",
+        "accepter": "",
+        "acceptdate": "",
+        "originalno": "",
+        "remark": "",
+        "crtBy": "8888",
+        "crtDtm": "2017-04-27 19:34:56",
+        "mdfBy": "8888",
+        "mdfDtm": "2017-04-27 19:35:06",
+        "voidedBy": "",
+        "voidedDtm": "",
+        "voided": "0",
+        "storename": "测试仓库",
+        "locationid": "",
+        "pdmode": 0
+    },
+    "epcs": [],
+    "pwd": "123",
+    "name": "8888",
+    "type": "inventoryServiceImpl",
+    "isScanFinish": "0"
+}
+15
+16
+17
+18
+19
+sending: {"param": "{\"epcSku\": {\"200000072988544112345678\": \"5071260330110037529\", \"200000072988544185236987\": \"5071260330110037529\", \"200000195805977712345676\": \"5071230600130193031\", \"200000203790275012345678\": \"5071262510130092028\", \"200000195805977755558886\": \"5071230600130193031\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+{"status":0,"msg":"提交成功!"}
+200
+20
+21
+sending: {"param": "{\"epcSku\": {\"200000195805977788855554\": \"5071230600130193031\", \"200000072988544166666555\": \"5071260330110037529\"}, \"name\": \"8888\", \"isScanFinish\": \"0\", \"dtl\": [], \"epcs\": [], \"pwd\": \"123\", \"main\": {\"ordertype\": \"0\", \"acceptdate\": \"\", \"voided\": \"0\", \"id\": \"IK170427193456157000\", \"voidedDtm\": \"\", \"storeid\": \"IK141011152156218000\", \"operatorName\": \"8888\", \"mdfBy\": \"8888\", \"checker\": \"8888\", \"crtDtm\": \"2017-04-27 19:34:56\", \"totactqty\": 0, \"locationid\": \"\", \"crtBy\": \"8888\", \"mdfDtm\": \"2017-04-27 19:35:06\", \"accepter\": \"\", \"pdmode\": 0, \"orderdate\": \"2017-04-27\", \"remark\": \"\", \"voidedBy\": \"\", \"storename\": \"\\u6d4b\\u8bd5\\u4ed3\\u5e93\", \"totqty\": 5287, \"orderstatus\": \"1\", \"originalno\": \"\", \"orderno\": \"IY201704270001\", \"operatedate\": \"2017-04-27 19:34:56\", \"checkdate\": \"2017-04-27 19:36:02\"}, \"type\": \"inventoryServiceImpl\"}"}
+116.226.187.83 - - [27/Apr/2017 19:42:46] "POST /skus/check HTTP/1.1" 412 -
